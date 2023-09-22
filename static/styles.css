@@ -1,0 +1,71 @@
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #137CE0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+form {
+    width: 60%;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+form input[type="number"] {
+    width: 98%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #137CE0; 
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #242fc7; 
+}
+
+/* Result styling */
+h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+p {
+    width: 60%;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-size: 1.2em;
+}
+
+img{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: auto;
+    margin: 0 auto 0 auto;
+}

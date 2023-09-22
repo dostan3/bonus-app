@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bonus Calculator</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}" />
+
+</head>
+<body>
+    <img src="{{ url_for('static', filename='a.png') }}">
+    <h1>Bonus Calculator</h1>
+    <form action="/" method="post">
+        Ironing (kg): <input type="number" name="linda_ironing"><br>
+        Washing (kg): <input type="number" name="linda_washing"><br>
+        Cashier (kg): <input type="number" name="linda_cashier"><br>
+        Packing (kg): <input type="number" name="linda_packing"><br>
+        <input type="submit" value="Calculate Bonus">
+    </form>
+    <h2>Result (IDR)</h2>
+    <p>{{ output }}</p>
+</body>
+</html>
+
+
